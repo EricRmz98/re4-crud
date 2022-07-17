@@ -1,0 +1,166 @@
+.marginless {
+    margin: 0;
+}
+
+.margin-y-1 {
+    margin: .5rem 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 60vw 40vw;
+    height: 100vh;
+}
+
+.user-card {
+    background-color: #f4f1de;
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delete-btn {
+    background: none;
+    font-size: 1rem;
+    border: 0;
+    margin-right: .5rem;
+    color: #e07a5f;
+}
+
+.edit-btn {
+    background: none;
+    font-size: 1rem;
+    border: 0;
+    color: #81b29a;
+}
+
+.users-container {
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.users-child{
+    width: 100%;
+    max-width: 45rem;
+}
+
+.form-container {
+    background: #3d405b;
+    color: #f4f1de;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f4f1de;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #f2cc8f;
+    border-radius: 10px;
+    border: 5px solid #f4f1de;
+}
+
+.generic-input{
+    background-color: #f4f1de;
+    color: #3d405b;
+    font-size: 1rem;
+    padding: .5rem;
+    border-radius: .5rem;
+    border: 0;
+}
+
+.date-input{
+    background-color: #f4f1de;
+    color: #3d405b;
+    font-size: 1rem;
+    padding: .407rem;
+    border-radius: .5rem;
+    border: 0;
+}
+
+input:focus{
+    outline: none;
+}
+
+.form-label{ 
+    color: #f2cc8f;
+    margin-right: .5rem;
+}
+
+.container-2-inputs{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.input-2-inputs{
+    width: calc(50% - .4rem);
+}
+
+.name-inputs{
+    display: flex;
+    align-items: center;
+    margin: 1.2rem 0;
+}
+
+.single-input{
+    display: flex;
+    align-items: center;
+    margin: 1.2rem 0;
+}
+
+.single-input-input{
+    width: 100%;
+}
+
+.label-container{
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.form-buttons-container{
+    display: flex;
+    justify-content: end;
+    margin-top: 1.2rem;
+}
+
+.submit-btn{
+    width: calc(50% - 1rem - .2rem);
+    margin-right: .8rem;
+    font-size: 1rem;
+    padding: .5rem;
+    border: 0;
+    border-radius: .5rem;
+    background: #81b29a;
+    color: #f4f1de;
+}
+
+.clear-btn{
+    width: calc(50% - 1rem - .4rem);
+    font-size: 1rem;
+    padding: .5rem;
+    border: 0;
+    border-radius: .5rem;
+    background: #e07a5f;
+    color: #f4f1de;
+}
+
+form{
+    width: 100%;
+    max-width: 25rem;
+}

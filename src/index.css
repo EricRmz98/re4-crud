@@ -1,0 +1,17 @@
+html{
+  font-family: Arial, sans-serif;
+  color: #3d405b;
+  background-color: #f2cc8f;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body{
+  margin: 0;
+}
+
